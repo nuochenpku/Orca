@@ -47,7 +47,13 @@ Each conversation in the dataset contains a unique number, `Turn_no`, `Topic`, `
 
 ### Download
 
-| [**Train set**] |  [**Dev Set**] | [**Test Set**] | [**ALL**] |
+- **Support Set**
+  - [5-shot Set]
+  - [10-shot Set]
+  - [200-shot Set]
+  
+- [**Test Set**]
+
 
 
 ## Checkpoints
@@ -57,20 +63,14 @@ Here we report automatic and huaman evaluations results of four baselines in our
 
 ![](Results.png) 
 
-### End-to-end ckpt Download
+###  Download
 
-|Model |  Large| Base | 
-| :----- | :-------------------:| :------------------: |
-| T5 | T5-base  | T5-small | 
-| BART | BART-Large  | BART-base | 
-| Prompt-BART | Prompt-BART-Large  | -| 
+|Model |  zero-shot| 5-shot | 10-shot | 200-shot |
+| :----- | :-------------------:| :------------------: | :------------------: |:------------------: |
+| QPR |  | 
+| T5 | T5-base  | T5-base |  T5-base |  T5-base | 
+| BART | BART-Large  |BART-Large  |BART-Large  |BART-Large  |
 
-### Two stage ckpt Download
-|Model |  Large| Base | 
-| :----- | :-------------------:| :------------------: |
-| T5 | T5-base(Answerer, Responser)  | T5-small(Answerer, Responser) | 
-| BART | BART-Large(Answerer, Responser)  | BART-base(Answerer, Responser) | 
-| Prompt-BART | Prompt-BART-Large(Answerer, Responser)  | -| 
 
 ## Evaluation
 

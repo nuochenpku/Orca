@@ -62,7 +62,7 @@ For the test set, please contact the chennuo26@gmail.com.
 ### Results
 Here we report automatic and huaman evaluations results of four baselines in our paper.
 
-![](Results.png) 
+![](shiyan.png) 
 
 ###  Download
 

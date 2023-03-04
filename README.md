@@ -83,4 +83,11 @@ Here we report automatic and huaman evaluations results of four baselines in our
   author={Nuo Chen and Hongguang Li and Yinan Bao and Baoyuan Wang and Jia Li},
   year={2023}
 }
+@article{Chen2023OrcaAF,
+  title={Orca: A Few-shot Benchmark for Chinese Conversational Machine Reading Comprehension},
+  author={Nuo Chen and Hongguang Li and Yinan Bao and Junqing He and Xinshi Lin and Qi Yang and Jianfeng Liu and Ruyi Gan and Jiaxing Zhang and Baoyuan Wang and Jia Li},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2302.13619}
+}
 ```

@@ -85,7 +85,7 @@ python3 utils/inference_bart.py --type --model_path --output_path --bsz
   
 ### Compute metrics
 ```
-python3 utils/inference.py --predict_path -labels_path
+python3 utils/evaluate_metrics.py --predict_path -labels_path
 ```
 Running this script could lead to computing the automatic metrics of the model.
 

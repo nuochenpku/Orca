@@ -81,7 +81,7 @@ python3 utils/inference_bart.py --type --model_path --output_path --bsz
 ```
   Then it can could generate two files: ***labels.txt*** and ***prediction.txt***
   
-  Of note, to ease inference, we reformulate the test set to run this transcript. Please contact the chennuo26@gmail.com for the corrsponding file.
+  Of note, to ease inference, we reformulate the test set to run this transcript. Please contact the chennuo26@gmail.com for the corresponding file.
   
 ### Compute metrics
 ```

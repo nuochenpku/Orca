@@ -7,7 +7,7 @@
 
 This repository contains resources for accessing the official benchmarks, codes and checkpoints of the paper:  [***Orca: A Few-shot Benchmark for Chinese Conversational Machine Reading Comprehension***](https://arxiv.org/pdf/2302.13619).
 
-The paper was accepted by EMNLP 2023 and GenBench Workshop! 🎉
+**The paper was accepted by EMNLP 2023 and GenBench Workshop!** 🎉
 
 We collect $\textbf{Orca}$, the first few-shot Chinese CMRC benchmark. Concretely, we  annotate the following components in Orca: 1) $\textbf{Topic}$, which consists of several sentences to drive the whole conversation; 2) $\textbf{Domain}$, only one or two words indicate the specific field o which the content of the conversation belongs; 3) $\textbf{Conversations}$, where each turn is assigned a golden knowledgeable passage. Importantly, the question and response in each turn  are human-crafted, leading to more coherent conversations. And response-related passages are also manually selected from the search engine. In total, we collect manually annotated 831 conversations and 4742 turns in Orca. Even though the size of our dataset could be questioned, our goal is to build strong CMRC models under few-shot or even zero-shot settings, and without needing to collect data for each target domain.
 
